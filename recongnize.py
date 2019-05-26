@@ -13,7 +13,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 id = 0
 
 
-names = ['None', 'None', 'None', 'None', 'None', 'None'] #Give the names of traines dataset with respective to the images 
+names = ['None', 'None', 'None', 'None', 'None', 'None'] #Give the names of trained dataset with respective to the images 
 
 
 cam = cv2.VideoCapture(0)
