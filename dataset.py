@@ -16,7 +16,7 @@ count = 0
 while(True):
 
     ret, img = cam.read()
-    img = cv2.flip(img, 1) # flip video image vertically
+    img = cv2.flip(img, 1)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_detector.detectMultiScale(gray, 1.3, 5)
 
@@ -25,7 +25,6 @@ while(True):
         cv2.rectangle(img, (x,y), (x+w,y+h), (255,0,0), 2)     
         count += 1
 
-        # Save the captured image into the datasets folder
         cv2.imwrite("Filenametowritefaces/User." + str(face_id) + '.' + str(count) + ".jpg", gray[y:y+h,x:x+w])
 
         cv2.imshow('image', img)
