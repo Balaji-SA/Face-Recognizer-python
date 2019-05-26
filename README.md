@@ -6,10 +6,10 @@ https://towardsdatascience.com/face-recognition-how-lbph-works-90ec258c3d6b
 
 
 # Prerequisites
-1.Python 3.0 >
-2.Camera with atleast capability to capture 480P images
-3.opencv library
-4.PILLOW
+1. Python 3.0 >
+2. Camera with atleast capability to capture 480P images
+3. opencv library
+4. PILLOW
 
 # Steps to follow
 1. Run dataset.py to capture atleast 30 images with the camera.
